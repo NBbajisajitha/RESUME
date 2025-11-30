@@ -1,45 +1,122 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>BAJI SATHA NIOORBASHA - Portfolio</title>
-
-  <style>
-    body { font-family: Arial; max-width: 900px; margin: auto; padding: 20px; background:#f7f8fb; }
-    h1 { color: #0066ff; }
-    .card { 
-      border: 1px solid #ddd; 
-      padding: 15px; 
-      border-radius: 10px; 
-      margin-top: 20px;
-      background: #ffffff;
-      box-shadow:0 6px 18px rgba(30,30,50,0.06);
-    }
-  </style>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>BAJI SAJITHA NOORBASHA — Resume</title>
+<style>
+  :root{--accent:#0b5fff;--muted:#666;--card:#fff}
+  body{font-family:Inter, system-ui, Arial, Helvetica, sans-serif;margin:0;background:#f4f6fb;color:#111}
+  .wrap{max-width:900px;margin:28px auto;padding:28px}
+  .header{display:flex;align-items:center;justify-content:space-between;gap:12px}
+  .name{font-size:26px;font-weight:700;color:var(--accent);margin:0}
+  .meta{color:var(--muted);margin-top:6px}
+  .contact{font-size:14px;color:#222}
+  .card{background:var(--card);padding:18px;border-radius:10px;box-shadow:0 6px 20px rgba(25,30,50,0.06);margin-top:18px}
+  h2{font-size:18px;margin:0 0 10px 0;color:#0b2944}
+  ul{margin:0;padding-left:18px}
+  .two-col{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+  .skills-list{display:flex;flex-wrap:wrap;gap:8px}
+  .badge{background:#eef3ff;color:var(--accent);padding:6px 10px;border-radius:999px;font-size:13px}
+  .footer{margin-top:18px;color:var(--muted);font-size:13px;text-align:center}
+  a {color:var(--accent); text-decoration:none}
+  @media(max-width:760px){.two-col{grid-template-columns:1fr}}
+</style>
 </head>
-
 <body>
+  <div class="wrap">
+    <header class="header">
+      <div>
+        <h1 class="name">BAJI SAJITHA NOORBASHA</h1>
+        <div class="meta">B.Tech CSE–AI (2022–2026) • Sri Mittapalli College of Engineering</div>
+        <div class="contact">✉ <a href="mailto:nbbajisajitha@gmail.com">nbbajisajitha@gmail.com</a> • ☎ +91 9493959230 • Guntur</div>
+        <div class="contact" style="margin-top:6px">
+          LinkedIn: <a href="https://linkedin.com/in/baji-sajitha-noorbasha-7a2740308" target="_blank">linkedin.com/in/baji-sajitha-noorbasha-7a2740308</a>
+          &nbsp;•&nbsp;
+          GitHub: <a href="https://github.com/NBajisajitha" target="_blank">github.com/NBajisajitha</a>
+        </div>
+      </div>
 
-<h1>BAJI SATHA NIOORBASHA</h1>
-<p><strong>Email:</strong> nbbajisajitha@gmail.com</p>
-<p><strong>Phone:</strong> 9493959230</p>
+      <div style="text-align:right">
+        <a class="badge" href="resume.pdf" download>Download PDF</a>
+        <div style="font-size:13px;color:var(--muted);margin-top:8px">B.Tech CGPA: 7.7</div>
+      </div>
+    </header>
 
-<div class="card">
-  <h2>About Me</h2>
-  <p>B.Tech (CSE-AI) student at Sri Mittapalli College of Engineering, Guntur. CGPA: 7.7.</p>
-</div>
+    <section class="card">
+      <h2>Professional Summary</h2>
+      <p>Motivated and detail-oriented B.Tech CSE–AI student skilled in Python, SQL, and full-stack fundamentals. Strong problem-solving and analytical abilities with hands-on internship development experience.</p>
+    </section>
 
-<div class="card">
-  <h2>Projects</h2>
-  <p>Project 1 — Add your project details here</p>
-  <p>Project 2 — Add another project</p>
-</div>
+    <div class="two-col">
+      <section class="card">
+        <h2>Education</h2>
+        <ul>
+          <li><strong>B.Tech – CSE (AI)</strong>, Sri Mittapalli College of Engineering (2022–2026) — CGPA: 7.7</li>
+          <li><strong>Intermediate</strong>, Govt. Vocational Junior College (2020–2022) — CGPA: 8.7</li>
+          <li><strong>SSC</strong>, ZPHS Pedanandipadu (2020) — GPA: 9.8</li>
+        </ul>
+      </section>
 
-<div class="card">
-  <h2>Resume</h2>
-  <p>Upload a file named <b>resume.pdf</b> to this repository.</p>
-</div>
+      <section class="card">
+        <h2>Technical Skills</h2>
+        <div class="skills-list">
+          <span class="badge">Python</span>
+          <span class="badge">Java</span>
+          <span class="badge">HTML</span>
+          <span class="badge">SQL</span>
+          <span class="badge">VS Code</span>
+          <span class="badge">GitHub</span>
+          <span class="badge">Machine Learning (Basics)</span>
+        </div>
+      </section>
+    </div>
 
+    <section class="card" style="margin-top:16px">
+      <h2>Projects</h2>
+      <p><strong>Python Full Stack Development – Internship Project</strong> — Worked on Python basics, control flow, collections, strings, SQL table creation, constraints, operators, and data retrieval. (Add links to code or live demos here.)</p>
+    </section>
+
+    <div class="two-col">
+      <section class="card">
+        <h2>Internships</h2>
+        <p><strong>Python Full Stack Intern</strong> — CodeWorks Edu Tech Services Pvt. Ltd. (10 Weeks). Practical exposure to Python, SQL, and full-stack workflows with hands-on tasks and problem-solving exercises.</p>
+      </section>
+
+      <section class="card">
+        <h2>Extracurricular</h2>
+        <ul>
+          <li>PPT competitions at Acharya Nagarjuna University (ANU) College</li>
+          <li>PPT events at various colleges</li>
+          <li>Participation in technical events and seminars</li>
+        </ul>
+      </section>
+    </div>
+
+    <div class="two-col">
+      <section class="card">
+        <h2>Soft Skills</h2>
+        <ul>
+          <li>Problem Solving</li>
+          <li>Adaptability</li>
+          <li>Teamwork</li>
+          <li>Logical Thinking</li>
+          <li>Communication</li>
+        </ul>
+      </section>
+
+      <section class="card">
+        <h2>Languages</h2>
+        <ul>
+          <li>English</li>
+          <li>Telugu</li>
+        </ul>
+      </section>
+    </div>
+
+    <div class="footer">© <span id="yr"></span> BAJI SAJITHA NOORBASHA</div>
+  </div>
+
+<script>document.getElementById('yr').textContent = new Date().getFullYear();</script>
 </body>
 </html>
