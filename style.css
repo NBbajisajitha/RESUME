@@ -1,89 +1,56 @@
-/* Basic Page Setup */
+/* 🌿 Sage Green Theme */
 body {
-    margin: 0;
-    padding: 0;
-    font-family: "Poppins", sans-serif;
-    background-color: #f6f2ff; /* Light lavender */
-    color: #111;
+  background-color: #f4f7f5;
+  color: #111;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
 }
 
-/* Header Section */
 header {
-    background: #ffffff;
-    color: #111;
-    padding: 30px 10%;
-    border-bottom: 1px solid #ddd;
-    text-align: center;
-}
-header h1 {
-    margin: 0;
-    font-size: 32px;
-    font-weight: 600;
-}
-header p {
-    font-size: 16px;
-    margin-top: 8px;
+  background: #ffffff;
+  padding: 30px 10%;
+  border-bottom: 1px solid #d1ddd6;
+  text-align: center;
 }
 
-/* Button */
+header h1 {
+  margin: 0;
+  font-size: 32px;
+  font-weight: 600;
+  color: #4e7c59;
+}
+
 .btn {
-    display: inline-block;
-    background: #ece7ff; /* pale lavender button */
-    color: #111;
-    padding: 8px 20px;
-    margin-top: 12px;
-    border-radius: 4px;
-    font-weight: 500;
-    text-decoration: none;
-    border: 1px solid #c4baf3;
-    transition: 0.3s;
+  background: #e0ede5;
+  color: #274231;
+  border: 1px solid #4e7c59;
+  padding: 8px 20px;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: 500;
+  margin-top: 12px;
+  transition: 0.3s;
 }
 .btn:hover {
-    background: #dfd7ff;
+  background: #d0e1d8;
 }
 
-/* Section Container */
 section {
-    background: #ffffff;
-    width: 80%;
-    margin: 20px auto;
-    padding: 20px;
-    border-radius: 6px;
-    border: 1px solid #e3e3e3;
+  background: #fff;
+  border: 1px solid #dfe8df;
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 6px;
 }
 
-/* Section Titles */
 h2 {
-    margin-top: 0;
-    font-size: 22px;
-    color: #3b3070; /* Dark lavender */
-    border-bottom: 1px solid #ddd;
-    padding-bottom: 5px;
+  color: #4e7c59;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #cdd8d1;
 }
 
-/* Paragraph */
-p {
-    font-size: 15px;
-    color: #333;
-}
-
-/* List */
-ul {
-    padding-left: 20px;
-}
-li {
-    margin-bottom: 5px;
-}
-
-/* Footer */
-footer {
-    text-align: center;
-    margin-top: 20px;
-    padding: 12px 0;
-    color: #444;
-    font-size: 14px;
-    border-top: 1px solid #ddd;
-}
 
 
 
