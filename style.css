@@ -3,66 +3,71 @@ body {
     margin: 0;
     padding: 0;
     font-family: "Poppins", sans-serif;
-    background-color: #f5f7ff;
+    background-color: #ffffff; /* Plain white */
+    color: #111; /* Strong readable text */
 }
 
 /* Header Section */
 header {
-    background: linear-gradient(135deg, #4b5fff, #3c3cc1);
-    color: white;
-    padding: 40px 10%;
+    background: #ffffff; /* No gradient */
+    color: #111;
+    padding: 30px 10%;
+    border-bottom: 1px solid #ddd; /* Simple clean line */
     text-align: center;
 }
 header h1 {
     margin: 0;
-    font-size: 36px;
+    font-size: 32px;
     font-weight: 600;
 }
 header p {
-    font-size: 18px;
-    margin-top: 10px;
+    font-size: 16px;
+    margin-top: 8px;
 }
 
 /* Button */
 .btn {
     display: inline-block;
-    background: white;
-    color: #4b5fff;
-    padding: 10px 25px;
-    margin-top: 15px;
-    border-radius: 25px;
-    font-weight: 600;
+    background: #f2f2f2;
+    color: #111;
+    padding: 8px 20px;
+    margin-top: 12px;
+    border-radius: 4px;
+    font-weight: 500;
     text-decoration: none;
+    border: 1px solid #ccc;
     transition: 0.3s;
 }
 .btn:hover {
-    background: #dadcff;
+    background: #e0e0e0;
 }
 
-/* Portfolio Content Container Style */
+/* Section Container */
 section {
-    background: white;
+    background: #ffffff;
     width: 80%;
-    margin: 25px auto;
-    padding: 25px;
-    border-radius: 15px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 6px;
+    border: 1px solid #e3e3e3; /* Light border instead of shadows */
 }
 
-/* Section Headings */
+/* Section Titles */
 h2 {
     margin-top: 0;
-    font-size: 26px;
-    color: #4b5fff;
+    font-size: 22px;
+    color: #222; /* Dark heading */
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
 }
 
-/* Text Styling */
+/* Paragraph */
 p {
-    color: #444;
-    font-size: 16px;
+    font-size: 15px;
+    color: #333;
 }
 
-/* List Styling */
+/* List */
 ul {
     padding-left: 20px;
 }
@@ -70,16 +75,19 @@ li {
     margin-bottom: 5px;
 }
 
-/* Footer Section */
+/* Footer */
 footer {
     text-align: center;
-    margin-top: 30px;
-    padding: 15px 0;
-    background: #eef0ff;
-    color: #555;
+    margin-top: 20px;
+    padding: 12px 0;
+    color: #444;
     font-size: 14px;
+    border-top: 1px solid #ddd;
 }
 
+   
+    
+  
 
 
 
