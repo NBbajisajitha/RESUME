@@ -1,12 +1,10 @@
-/* Basic Page Setup */
 body {
     margin: 0;
     padding: 0;
     font-family: "Poppins", sans-serif;
-    background-color: #f2f2f2; /* Light gray background */
+    background-color: #f6f2ff; /* Light lavender background */
     color: #111;
 }
-
 
 /* Header Section */
 header {
