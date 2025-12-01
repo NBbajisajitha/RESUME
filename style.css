@@ -1,17 +1,18 @@
+/* Basic Page Setup */
 body {
     margin: 0;
     padding: 0;
     font-family: "Poppins", sans-serif;
-    background-color: #f6f2ff; /* Light lavender background */
+    background-color: #f6f2ff; /* Light lavender */
     color: #111;
 }
 
 /* Header Section */
 header {
-    background: #ffffff; /* No gradient */
+    background: #ffffff;
     color: #111;
     padding: 30px 10%;
-    border-bottom: 1px solid #ddd; /* Simple clean line */
+    border-bottom: 1px solid #ddd;
     text-align: center;
 }
 header h1 {
@@ -27,18 +28,18 @@ header p {
 /* Button */
 .btn {
     display: inline-block;
-    background: #f2f2f2;
+    background: #ece7ff; /* pale lavender button */
     color: #111;
     padding: 8px 20px;
     margin-top: 12px;
     border-radius: 4px;
     font-weight: 500;
     text-decoration: none;
-    border: 1px solid #ccc;
+    border: 1px solid #c4baf3;
     transition: 0.3s;
 }
 .btn:hover {
-    background: #e0e0e0;
+    background: #dfd7ff;
 }
 
 /* Section Container */
@@ -48,14 +49,14 @@ section {
     margin: 20px auto;
     padding: 20px;
     border-radius: 6px;
-    border: 1px solid #e3e3e3; /* Light border instead of shadows */
+    border: 1px solid #e3e3e3;
 }
 
 /* Section Titles */
 h2 {
     margin-top: 0;
     font-size: 22px;
-    color: #222; /* Dark heading */
+    color: #3b3070; /* Dark lavender */
     border-bottom: 1px solid #ddd;
     padding-bottom: 5px;
 }
@@ -83,6 +84,8 @@ footer {
     font-size: 14px;
     border-top: 1px solid #ddd;
 }
+
+
 
    
     
